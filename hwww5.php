@@ -13,7 +13,7 @@ echo"connection done";
 //$result =mysqli_query($connt,$query);
 
 
-if (isset($_POST['send'])) {
+if (isset($_POST['send']))    {
     $gender =  $_POST['gender'];
     $email = $_POST['email'];
     $password = $_POST['password'];
